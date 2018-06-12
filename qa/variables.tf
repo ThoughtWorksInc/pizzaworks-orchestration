@@ -16,15 +16,3 @@ variable "environment" {
   type    = "string"
   default = ""
 }
-
-variable "latency_threshold" {
-  type = "string"
-}
-
-variable "failure_threshold" {
-  type = "string"
-}
-
-variable "not_found_threshold" {
-  type = "string"
-}
